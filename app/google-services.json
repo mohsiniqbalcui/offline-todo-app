@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795823447800",
+    "project_id": "familyaura-carer-android",
+    "storage_bucket": "familyaura-carer-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795823447800:android:89a78a0171e0c4d75c650d",
+        "android_client_info": {
+          "package_name": "com.familyaura.carer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795823447800-ja0dfivfjcoqtqhrl9e07i7a3dq7ek9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcJAObtk-agHqCRvUT1d7roip-o1uWsqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795823447800-ja0dfivfjcoqtqhrl9e07i7a3dq7ek9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

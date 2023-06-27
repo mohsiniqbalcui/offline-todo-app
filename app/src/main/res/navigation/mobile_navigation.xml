@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.familyaura.todo.ui.home.HomeRouteFragment"
+        android:label="Menu List"
+        tools:layout="@layout/fragment_home_route">
+
+        <action
+            android:id="@+id/action_homeFragment_to_callFragment"
+            app:destination="@id/nav_call"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_menu"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_buyFragment"
+            app:destination="@id/nav_buy"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_menu"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_sellFragment"
+            app:destination="@id/nav_sell"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_menu"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_call"
+        android:name="com.familyaura.todo.ui.call.CallFragment"
+        android:label="@string/menu_call"
+        tools:layout="@layout/fragment_call" />
+
+    <fragment
+        android:id="@+id/nav_buy"
+        android:name="com.familyaura.todo.ui.buy.BuyFragment"
+        android:label="@string/menu_buy"
+        tools:layout="@layout/fragment_buy" />
+
+    <fragment
+        android:id="@+id/nav_sell"
+        android:name="com.familyaura.todo.ui.sell.SellFragment"
+        android:label="@string/menu_sell"
+        tools:layout="@layout/fragment_sell" />
+
+</navigation>
