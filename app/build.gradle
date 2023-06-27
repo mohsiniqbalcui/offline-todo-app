@@ -19,13 +19,9 @@ android {
         applicationId "com.familyaura.carer"
         minSdk 23
         targetSdk 33
-
         versionCode 93
         versionName "1.2.1 2 build 93"
 
-//        def date = new Date()
-//        def formattedDate = date.format('MMMM-dd-yyyy')
-//        setProperty("archivesBaseName", "family-aura-v" + versionCode + "-" + formattedDate)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk {
             abiFilters 'armeabi-v7a', "arm64-v8a"

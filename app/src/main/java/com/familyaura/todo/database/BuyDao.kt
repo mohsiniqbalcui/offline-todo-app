@@ -9,7 +9,7 @@ interface BuyDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun updateOrCreate(buyData: List<BuyData>)
 
-    @Query("SELECT * FROM BuyData ORDER BY id ")
+    @Query("SELECT * FROM ItemToSell ORDER BY id ")
     fun getData(): LiveData<List<BuyData>>
 
 }

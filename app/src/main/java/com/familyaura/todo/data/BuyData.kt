@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
-@Entity(tableName = "BuyData")
+@Entity(tableName = "ItemToSell")
 data class BuyData(
     @PrimaryKey(autoGenerate = true)
     @SerializedName("id") var id: Int? = null,
